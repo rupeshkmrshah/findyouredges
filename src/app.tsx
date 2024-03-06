@@ -365,27 +365,7 @@ function Card() {
           />
         </g>
       </g>
-      <path
-        id="vercel-logo"
-        d="m336.4 261-46.2-80-46.2 80h92.4z"
-        style={{
-          fill: 'url(#gradient-vercel)',
-        }}
-      />
-      <g id="center">
-        <path
-          d="M420 202 v36 M 402 220h36"
-          style={{
-            strokeWidth: 3.5625,
-            strokeLinecap: 'round',
-            strokeLinejoin: 'round',
-            stroke: '#999',
-            fill: 'none',
-          }}
-        />
-      </g>
-      <use href="#react-logo" width={98} x={500} />
-      <use href="#react-logo" width={98} x={500} mask="url(#mask)" />
+      
     </svg>
   );
 }
