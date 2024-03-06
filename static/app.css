@@ -38,7 +38,7 @@ main {
 }
 
 main h1 {
-  font-size: min(16vw, 4rem);
+  font-size: min(12vw, 3rem);
   font-weight: 600;
   margin: 0;
   text-align: center;

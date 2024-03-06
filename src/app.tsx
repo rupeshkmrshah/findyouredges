@@ -365,7 +365,8 @@ function Card() {
           />
         </g>
       </g>
-      
+      <use href="#react-logo" width={98} x={500} />
+      <use href="#react-logo" width={98} x={500} mask="url(#mask)" />
     </svg>
   );
 }
