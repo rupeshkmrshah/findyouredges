@@ -13,7 +13,7 @@ export default function App({ req, isCold }) {
 
           <main>
             <h1>
-              <span>Hello from the edge!</span>
+              <span>Hello FindYourEdges!</span>
             </h1>
 
             <div class="info">
@@ -55,25 +55,13 @@ export default function App({ req, isCold }) {
 function Head() {
   return (
     <head>
-      <title>React on the edge</title>
+      <title>Find Your Edges</title>
       <meta charset="utf-8" />
       <link rel="icon" href="/static/favicon.png" />
       <link rel="stylesheet" href="/static/app.css" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta
-        name="description"
-        content="HTML, dynamically rendered in a city near you"
+      <meta name="description" content="HTML, dynamically rendered in a city near you"
       />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@vercel" />
-      <meta name="twitter:creator" content="@vercel" />
-      <meta name="twitter:title" content="React on the edge" />
-      <meta
-        name="twitter:description"
-        content="HTML, dynamically rendered in a city near you"
-      />
-      <meta name="twitter:image" content="/static/og/card.png" />
-      <meta name="twitter:image:alt" content="The Vercel and React logos" />
     </head>
   );
 }
@@ -405,7 +393,7 @@ function Card() {
 function Footer() {
   return (
     <footer>
-      <p class="company">
+      {/* <p class="company">
         <a target="_blank" href="https://vercel.com" aria-label="Vercel">
           <svg
             viewBox="0 0 4438 1000"
@@ -419,22 +407,22 @@ function Footer() {
             />
           </svg>
         </a>
-      </p>
+      </p> */}
 
       <p class="details">
-        Built with{' '}
+        Build by{' '}
         <a target="_blank" href="https://nextjs.org">
-          React
+          Rupesh
         </a>{' '}
         on{' '}
         <a target="_blank" href="https://vercel.com">
-          Vercel
+          ReactJs
         </a>
       </p>
 
       <a
         target="_blank"
-        href="https://github.com/vercel-labs/react-on-the-edge"
+        href="https://github.com/rupeshkmrshah/findyouredges"
         class="source"
       >
         <svg
